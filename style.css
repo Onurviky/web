@@ -1,0 +1,149 @@
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #383532;
+    margin: 0px;
+}
+.m-plus-1p-regular {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-color: #ffffff;
+    padding: 1%; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.logo{
+    margin-top: none;
+    padding: 1%; 
+    height: 100px;
+}
+nav{
+    margin-left: auto;
+    margin-top: 2%;
+    
+}
+
+
+.botones{
+    color: #6a6e73;        
+    background-color: #A3C942; 
+    max-width: 100%;
+    padding:20px; 
+    text-decoration: none;       
+    border-radius: 3px;   
+    margin: 5px;
+    transition: 1s;
+}
+
+.botones:hover{
+    color:rgb(216, 214, 214);
+    background-color: #28844F;
+}
+
+.nombre{
+    width: 200px;
+    height: auto;
+}
+
+
+
+.all{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about{
+    text-decoration: underline solid 2px black;
+}
+
+
+
+.title-1{
+    margin:0;
+    text-align: center;
+    background-image: url(joel-filipe-jU9VAZDGMzs-unsplash.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20%;
+}
+
+.cat{
+    margin: 30px;;
+    text-align: center;
+}
+.catalogo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.material{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 80%; 
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.material:hover {
+    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.material-img {
+    max-width: 50%; 
+    height: auto;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 16px;
+    color: #28844F;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #A3C942; 
+    padding: 20px;
+    text-align: center; 
+    color: #ffffff; 
+}
+
+.social-icons {
+    margin-bottom: 10px; 
+}
+
+.icon {
+    width: 40px; 
+    height: 40px;
+    margin: 10px;
+    transition: 0.3s; 
+}
+
+.icon:hover {
+    width: 45px; 
+    height: 45px;
+}
+
+.email {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
